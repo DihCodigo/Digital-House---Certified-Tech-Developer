@@ -1,0 +1,11 @@
+:root {
+    --text-primary: black;
+    --text-secondary: white;
+    --text-terciary: red;
+}
+
+.App {
+    display: flex;
+    height: 100vh;
+
+}

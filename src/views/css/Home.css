@@ -1,0 +1,51 @@
+:root {
+    /*text color*/
+    --text-title: white;
+
+    /*background color*/
+    --bg-primary-header: #1CD1B0;
+    --bg-secondary-header: white;
+    --bg-terciary-header: #001D2D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.blocoPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    box-shadow: 15px -3px black;
+
+}
+
+.bloco {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 10px;
+    width: 15%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.blocoPrincipal #img-salvar{
+    background-image: url("../images/salvar.png");
+}
+
+.blocoPrincipal .img-salvar {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+
+
+}
+
